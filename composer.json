@@ -1,0 +1,44 @@
+{
+    "name": "shuguang/aliyun-mns",
+    "description": "The MNS SDK for Aliyun OpenAPI",
+    "keywords": [
+        "aliyun",
+        "open-api",
+        "php",
+        "mns",
+        "sdk"
+    ],
+    "type": "library",
+    "homepage": "https://github.com/shuguang/aliyun-mns",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shuguang",
+            "email": "adm@testd.net",
+            "homepage": "http://testd.net",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.3.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "ext-openssl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "AliyunMNS\\": "AliyunMNS/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "master-dev"
+        }
+    },
+    "suggest": {
+        "ext-openssl": "Allows working with https",
+        "ext-curl": "To send requests using cURL",
+        "ext-json": "Parse json"
+    }
+}
